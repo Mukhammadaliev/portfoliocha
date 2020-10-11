@@ -91,6 +91,10 @@ img {
   font-size: 13px;
   color: #8a8a8b;
   text-decoration: none;
+  transition: color 0.3s ease;
+}
+.profile-item-link:hover {
+  color: #222;
 }
 .languages-title {
   text-transform: uppercase;
@@ -119,6 +123,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  transition: box-shadow 0.3s ease;
 }
 .languages-item::nth-child(even) {
   margin-left: 0;
@@ -201,14 +206,22 @@ img {
   position: relative;
   transform: translateY(-100%);
 }
+.site {
+  display: inline-block;
+  padding: 40px 30px;
+  text-decoration: none;
+  color: #5c5c5c;
+}
 .header-section-right-title {
   border: 2px solid #8a8a8b;
   border-radius: 50%;
-  padding: 40px 30px;
   font-size: 18px;
   margin-left: 40px;
   margin-right: 40px;
-  color: #5c5c5c;
+  transition: transform 0.3s ease;
+}
+.header-section-right-title:hover {
+  transform: scale(1.1);
 }
 .languages-item-line-left::before{
   content: "";
@@ -283,11 +296,20 @@ img {
   justify-content: center;
   margin-bottom: 100px;
 }
+.site-section-right-body-item {
+  transition: transform 0.3s ease;
+}
+.site-section-right-body-item:hover {
+  transform: scale(1.1);
+}
 .site-section-right-body-link {
   text-decoration: none;
   font-size: 10px;
   color: #5c5c5c;
   padding: 10px 20px;
+}
+.site-section-right-body-link:hover {
+  color: #222;
 }
 .site-section-right-body-bold {
   font-weight: 700;
