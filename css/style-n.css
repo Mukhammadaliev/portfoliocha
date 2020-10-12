@@ -14,8 +14,8 @@ body {
   font-family: "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background-color: #56565A;
-  color: #222;
+  background-color: #fff;
+  color: #fff;
 }
 
 img {
@@ -48,7 +48,7 @@ img {
 .site-section-right {
   width: 595px;
   padding: 20px 30px;
-  background-color: #fff;
+  background-color: #5c5c5c;
 }
 .line {
   width: 15px;
@@ -65,7 +65,7 @@ img {
   text-transform: uppercase;
   font-size: 17px;
   font-weight: 700;
-  color: #fff;
+  color: #5c5c5c
   border-bottom: 2px dashed #EAEAEA;
   padding-bottom: 20px;
 }
@@ -210,7 +210,7 @@ img {
   display: inline-block;
   padding: 40px 30px;
   text-decoration: none;
-  color: #5c5c5c;
+  color: #fff;
 }
 .header-section-right-title {
   border: 2px solid #8a8a8b;
@@ -268,7 +268,7 @@ img {
   text-align: center;
   font-size: 17px;
   text-transform: uppercase;
-  color: #5c5c5c;
+  color: #fff;
   margin: 0;
   margin-bottom: 20px;
 }
@@ -276,7 +276,7 @@ img {
   text-align: center;
   font-size: 12px;
   text-transform: uppercase;
-  color: #8a8a8b;
+  color: #fff;
   font-weight: 700;
   margin: 0;
   margin-bottom: 20px;
@@ -285,7 +285,7 @@ img {
   text-align: center;
   font-size: 12px;
   text-transform: capitalize;
-  color: #5c5c5c;
+  color: #fff;
   margin-bottom: 20px;
 }
 .site-section-right-body-list {
@@ -305,11 +305,11 @@ img {
 .site-section-right-body-link {
   text-decoration: none;
   font-size: 10px;
-  color: #5c5c5c;
+  color: #fff;
   padding: 10px 20px;
 }
 .site-section-right-body-link:hover {
-  color: #222;
+  color: #8a8a8b;
 }
 .site-section-right-body-bold {
   font-weight: 700;
@@ -390,18 +390,4 @@ img {
 }
 .night-img {
   width: 50px;
-  display: inline-block;
-  vertical-align: middle;
-}
-.link-night {
-  background-color: #8a8a8b;
-  display: inline-block;
-  text-decoration: none;
-  vertical-align: baseline;
-}
-.link-moon {
-  background-color: #8a8a8b;
-  display: inline-block;
-  vertical-align: baseline;
-  text-decoration: none;
 }
